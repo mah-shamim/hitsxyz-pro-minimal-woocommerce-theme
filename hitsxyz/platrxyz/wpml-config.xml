@@ -1,0 +1,45 @@
+<wpml-config>
+    <admin-texts>
+		<key name="hitsxyz_theme_options">
+            <key name="hits_logo" />
+            <key name="hits_logo_mobile" />
+            <key name="hits_logo_sticky" />
+            <key name="hits_logo_menu_mobile" />
+            <key name="hits_favicon" />
+            <key name="hits_text_logo" />
+            <key name="hits_404_page_image" />
+            <key name="hits_404_page" />
+            <key name="hits_custom_loading_image" />
+            <key name="hits_header_store_notice" />
+            <key name="hits_header_slide_notice" />
+            <key name="hits_bg_breadcrumbs" />
+            <key name="hits_footer_block" />
+            <key name="hits_product_new_label_text" />
+            <key name="hits_product_sale_label_text" />
+            <key name="hits_product_feature_label_text" />
+            <key name="hits_product_out_of_stock_label_text" />
+            <key name="hits_product_sale_percent_prefix" />
+            <key name="hits_prod_placeholder_img" />
+            <key name="hits_prod_cat_filter_heading" />
+            <key name="hits_prod_group_heading" />
+            <key name="hits_prod_custom_tab_title" />
+            <key name="hits_prod_custom_tab_content" />
+            <key name="hits_prod_ads_banner_content" />
+        </key>   
+    </admin-texts>   
+	<custom-types>
+		<custom-type translate="1">hits_team</custom-type>
+		<custom-type translate="1">hits_testimonial</custom-type>
+		<custom-type translate="1">hits_logo</custom-type>
+		<custom-type translate="1">hits_footer_block</custom-type>
+		<custom-type translate="1">hits_mega_menu</custom-type>
+		<custom-type translate="1">hits_size_chart</custom-type>
+		<custom-type translate="1">product</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">hits_testimonial_cat</taxonomy>
+		<taxonomy translate="1">hits_logo_cat</taxonomy>
+		<taxonomy translate="1">hits_product_brand</taxonomy>
+		<taxonomy translate="1">product_cat</taxonomy>
+	</taxonomies>
+</wpml-config>

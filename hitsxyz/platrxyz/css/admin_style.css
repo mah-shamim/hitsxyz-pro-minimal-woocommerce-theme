@@ -1,0 +1,546 @@
+/*
+1. Genaral Theme
+2. Mega Menu
+3. Meta Boxes
+4. Logo Settings Page
+5. Form Add Sidebar
+6. Widget
+7. Product Category
+8. Product Color Attribute
+9. Theme Options
+10. WooCommerce Customize
+11. Menu Color Picker
+*/
+/***************** 1. Genaral Theme *****************/
+.hidden{
+	display: none
+}
+#setting-error-tgmpa{
+	display: block;
+}
+.post-type-hits_footer_block #edit-slug-box
+,.post-type-hits_mega_menu #edit-slug-box{
+	display: none;
+}
+/***************** 2. Mega Menu *****************/
+.menu-item-bar dt.menu-item-handle{
+	width: 500px;
+}
+.menu-item-settings{
+	width: 500px;
+	padding: 15px;
+}
+.menu-item-bar dt.menu-item-handle,
+.menu-item-settings{
+	max-width: 500px;
+}
+.menu-item-settings .description{
+	margin-bottom: 7px;
+}
+.menu-item-settings .description-thin{
+	width: 240px;
+}
+.menu-item-settings .description-wide{
+	width: 490px;
+}
+.menu-item-settings .wp-editor-wrap{
+	clear: both;
+}
+.menu-item-settings .wp-editor-container textarea.wp-editor-area {
+	height: 150px !important;
+}
+.field-hits-is-megamenu{
+	font-weight: bold;
+}
+.menu-edit .field-description.description-wide{
+	width: 100%;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-width: 0 0 1px 0;
+	border-style: solid;
+	border-color: #d9d9d9
+}
+.nav-menus-php .item-edit{
+	overflow: hidden;
+}
+.menu-item-settings .field-hits-bg-color label{
+	margin-right: 10px;
+}
+.menu-item-settings .field-hits-bg-color .description{
+	display: block;
+	margin-bottom: 10px;
+}
+
+/***************** 3. Meta Boxes *****************/
+.hits-meta-box-field{
+	width: 100%; 
+	overflow: hidden;
+	margin-bottom: 6px;
+}
+.form-table td.hits-meta-box-field{
+	width: 85%
+}
+.hits-meta-box-field label{
+	float: left;
+	line-height: 28px;
+	width: 27%;
+	font-weight: 600;
+}
+.hits-meta-box-field .field{
+	float: left;
+	width: 68%
+}
+.hits-meta-box-field .field input:not(.colorpicker):not(.wp-picker-clear), 
+.hits-meta-box-field .field select, .hits-meta-box-field .field textarea{
+	min-width: 230px;
+}
+.hits-meta-box-field .field textarea{
+	height: 100px;
+	width: 364px;
+}
+.hits-meta-box-field .field input[type="button"]{
+	font-size: 13px;
+	line-height: 30px;
+	margin-left: 5px;
+	min-width: 50px !important;
+	padding: 0 5px;
+	border: none;
+	background-color: #00aef0; 
+	color: #fff;
+}
+.hits-meta-box-field .field input[type="button"]:hover{
+	background-color: #0089bd; 
+	cursor: pointer
+}
+.hits-meta-box-field .field input[type="button"]:disabled{
+	background-color: #ebebeb; 
+	color: #666
+}
+.hits-meta-box-field .field input[type="button"]:disabled:hover{
+	cursor: auto
+}
+.hits-meta-box-field .field input[type="button"].wp-picker-clear{
+	padding: 0
+}
+.hits-meta-box-field .field input.upload_field{
+	width:65%;
+}
+.hits-meta-box-field .field .preview-image{
+	max-width: 50%; 
+	max-height: 200px; 
+	margin-top: 5px; 
+	margin-left: 1px; 
+	display: block;
+}
+.hits-meta-box-field.hits-heading-box{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.hits-meta-box-field.hits-heading-box h2{
+	margin-bottom: 0 !important; 
+	font-size: 22px !important; 
+	background-color: rgba(240,240,241,0.5);
+}
+.hits-meta-box-field .field .description{
+	display: block;
+	font-style: italic;
+}
+
+#page_options.hits-hidden{
+	display: none !important
+}
+
+/* Meta Boxes - Gallery */
+#post_gallery .inside{
+	padding: 0;
+	margin: 0;
+}
+.hits-gallery-box{
+	padding: 0 0 0 5px;
+}
+.hits-gallery-box .image{
+	width: 75px;
+	float: left;
+	margin: 9px 9px 0 0;
+	position: relative;
+}
+.hits-gallery-box .image img{
+	width: 100%;
+	height: auto;
+	max-height:80px;
+	display: block;
+}
+.hits-gallery-box .image .del-image{
+	display: block;
+	position: absolute;
+	top: -6px;
+	right: -6px;
+	height: 14px;
+	width: 14px;
+	background-color: #000;
+	border-radius: 50%;
+}
+.hits-gallery-box .image .del-image:before{
+	font-family: "Font Awesome 6 Free";
+	color: #fff;
+	content: '\f00d';
+	font-size: 11px;
+	position: absolute;
+	top: -1px;
+	right: 3px;
+	font-weight: 900;
+}
+.hits-gallery-box .image .del-image:hover{
+	cursor: pointer;
+}
+.hits-gallery-box .add-image{
+	padding: 5px 0;
+	margin: 10px 0;
+	display: block;
+	clear: both;
+	float: left
+}
+
+.hits-gallery-box.context-normal{
+	box-sizing: border-box; 
+	padding-left: 1px;
+}
+.hits-gallery-box.context-normal .image{
+	margin: 0 9px 9px 0;
+}
+.hits-gallery-box.context-normal .del-image{
+	position: absolute; 
+	left: 0; 
+	top: 0; 
+	bottom: auto; 
+	right: auto; 
+	width: 100%; 
+	height: 100%; 
+	background: transparent; 
+	border-radius: 0;
+}
+.hits-gallery-box.context-normal .del-image:before{
+	content: '\f00d'; 
+	font-family: "Font Awesome 6 Free"; 
+	font-weight: 900;
+	text-align: center; 
+	font-size: 15px; 
+	color: red; 
+	position: absolute; 
+	width: 100%; 
+	height: 100%; 
+	line-height: 75px; 
+	left: 0; 
+	top: 0; 
+	background-color: rgba(255,255,255,0.3);
+}
+.hits-gallery-box.context-normal .add-image{
+	clear: none; 
+	margin: 0 9px 9px 0; 
+	padding: 0; 
+	width: 75px; 
+	height: 75px; 
+	background-color:#f5f5f5; 
+	text-decoration: none; 
+	font-size: 0
+}
+.hits-gallery-box.context-normal .add-image:before{
+	content: "\f067"; 
+	font-family: "Font Awesome 6 Free"; 
+	font-size: 15px; 
+	color: #0f0; 
+	text-align: center; 
+	width: 100%; 
+	height: 100%; 
+	line-height: 75px; 
+	display: block;
+	font-weight: 900;
+}
+
+/* Meta Boxes - Table */
+.hits-meta-box-field.table{
+	margin-bottom: 10px;
+}
+.hits-meta-box-field.table table{
+	text-align: center;
+	width: 100%;
+	background-color: #f5f5f5;
+	padding: 5px;
+}
+.hits-meta-box-field.table table
+,.hits-meta-box-field.table tr
+,.hits-meta-box-field.table td{
+	border: none !important;
+}
+.hits-meta-box-field.table .field{
+	width: 100%;
+	display: block;
+	margin-top: 5px;
+}
+.hits-meta-box-field.table .table-button{
+	width: 18px;
+	height: 18px;
+	margin: 3px;
+	display: inline-block;
+	text-decoration: none;
+	background-color: #81b71a;
+	color: #fff;
+}
+.hits-meta-box-field.table .table-button.del-row
+,.hits-meta-box-field.table .table-button.del-col{
+	background-color: #db4a39;
+}
+.hits-meta-box-field.table tbody tr td:last-child{
+	width: 50px;
+}
+
+.hits-meta-box-field.table table input{
+	min-width: 0 !important;
+	width: 100%;
+}
+.hits-meta-box-field.table:not(.simple-table) table input{
+	text-align: center;
+}
+.hits-meta-box-field.table:not(.simple-table) tbody tr:first-child input
+,.hits-meta-box-field.table.simple-table tbody tr td:first-child input{
+	font-weight: bold;
+}
+
+@media only screen and (min-width: 1300px){
+	.hits-meta-box-field.table.simple-table table{
+		width: 70%;
+	}
+}
+
+/* Meta Boxes - Multi Select */
+.hits-meta-box-field.multi-select .field select{
+	min-width: 100%;
+}
+
+/***************** 4. Logo Settings Page *****************/
+.hits-logo-settings-page-title{
+	font-size: 25px;
+	font-weight: bold;
+}
+#hits-logo-setting-page-wrapper h3{
+	font-size: 20px;
+	font-weight: bold
+}
+#hits-logo-setting-page-wrapper .responsive-options-wrapper label,
+#hits-logo-setting-page-wrapper .responsive-options-wrapper span{
+	margin-right: 2px;
+	vertical-align: top;
+	line-height: 22px;
+}
+#hits-logo-setting-page-wrapper .responsive-options-wrapper label{
+	font-weight: bold
+}
+#hits-logo-setting-page-wrapper .responsive-options-wrapper span{
+	margin-right: 15px;
+}
+#hits-logo-setting-page-wrapper .responsive-options-wrapper input.small-text{
+	width: 70px;
+	max-width: 70px
+}
+
+/***************** 5. Form Add Sidebar *****************/
+#hits-form-add-sidebar{
+	background-color: #fafafa;
+	border: 1px solid #e5e5e5;
+	padding: 30px 10px;
+	margin: 20px 0;
+	color: #23282d;
+	text-align: center;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04); 
+	box-shadow: 0 1px 1px rgba(0,0,0,.04); 
+	position: relative;
+}
+#hits-form-add-sidebar.loading:before{
+	content: "\f110"; 
+	font-family: "Font Awesome 6 Free";
+	position: absolute; 
+	left: 50%;
+	font-weight: 900;
+	top: 50%;
+	width: 30px;
+	text-align: center;
+	line-height: 30px;
+	margin-top: -15px;
+	margin-left: -15px;
+	font-size: 20px;
+	z-index: 10; 
+	-webkit-animation: fa-spin 1s infinite steps(8);
+    animation: fa-spin 1s infinite steps(8);
+}
+#hits-form-add-sidebar.loading:after{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	content: "";
+	background: rgba(255,255,255,0.7);
+}
+#hits-form-add-sidebar input[type="text"]{
+	width: 350px;
+	vertical-align: middle;
+	line-height:21px;
+}
+#hits-add-sidebar{
+	border: none;
+	border-radius: 0;
+}
+.sidebar-hits-custom-sidebar .delete-sidebar{
+	position: absolute;
+	top: 15px;
+	right: -1px;
+	font-size: 15px;
+	color: #ccc;
+	z-index: 99;
+	font-family: "Font Awesome 6 Free";
+	font-weight: 900;
+}
+.sidebar-hits-custom-sidebar .delete-sidebar:before{
+	content: "\f2ed";
+}
+.sidebar-hits-custom-sidebar .delete-sidebar:hover{
+	color: #aaa
+}
+
+/***************** 6. Widget *****************/
+#widgets-right .widget-inside textarea{
+	white-space: normal;
+	min-height: 100px
+}
+.widget .hits_meta_box_upload_button, 
+.widget .hits_meta_box_clear_image_button{
+	margin: 10px 0;
+}
+.widget .preview-image{
+	display: block;
+	max-width: 100%;
+}
+
+/***************** 7. Product Category *****************/
+.hits-product-cat-upload-field .preview-image{
+	float: left;
+	margin-right: 10px;
+	min-width: 60px;
+}
+.hits-product-cat-upload-field .button-wrapper{
+	line-height: 60px;
+}
+.hits-product-cat-upload-field .preview-image img{
+	max-width: 60px;
+	max-height: 60px;
+}
+.taxonomy-product_cat table.wp-list-table .column-description img{
+	max-width: 100%;
+}
+
+/***************** 8. Product Color Attribute *****************/
+.hits_color_preview_image{
+	margin-bottom: 5px; 
+	width: 30px; 
+	height: 30px;
+}
+
+/***************** 9. Theme Options *****************/
+.redux-container .redux-dev-mode-notice-container{
+	display: none !important
+}
+.redux-container .typography-no-preview .typography-preview{
+	display: none !important
+}
+.form-table td .redux-image-select > label{
+	margin: 0 !important;
+}
+.redux-container .redux-group-tab > h2{
+	display: none !important
+}
+.redux-container .redux-section-field{
+	margin-top: 30px;
+}
+.redux-container .redux-section-field > h3{
+	color: #161616;
+	background-color: #c0eaf9;
+	border: 1px solid #1a81bc;
+	line-height: 40px;
+	padding: 0 20px;
+	margin: 20px 0 10px 0;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+}
+.redux-container .redux-info-field{
+	padding: 0 20px; 
+	line-height: 40px;
+	margin-top: 20px;
+	border-radius: 5px;
+	background-color: #c0eaf9;
+	border: 0;
+	text-transform: uppercase;
+}
+.redux-container .redux-info-field > p{
+	margin: 0;
+	line-height: 40px;
+	font-size: 12px;
+}
+.form-table select,
+.form-table input[type=date], 
+.form-table input[type=datetime-local], 
+.form-table input[type=datetime], 
+.form-table input[type=email], 
+.form-table input[type=month], 
+.form-table input[type=number], 
+.form-table input[type=password], 
+.form-table input[type=search], 
+.form-table input[type=tel], 
+.form-table input[type=text], 
+.form-table input[type=time], 
+.form-table input[type=url], 
+.form-table input[type=week]{
+	width: 40%;
+}
+.redux-container .form-table.form-table-section tr:first-child{
+	border-bottom: none !important
+}
+.redux-container .redux-group-tab .redux-section-desc{
+	text-align: center
+}
+.redux-container .redux-main span.description{
+	font-style: italic
+}
+.redux-container .redux-action_bar input[type="submit"]{
+	margin-left: 5px;
+}
+#hitsxyz_theme_options-hits_loading_image img{
+	max-width: 110px;
+}
+#hitsxyz_theme_options-hits_loading_image li.redux-image-select{
+	margin-right: 6px !important;
+}
+
+@media only screen and (max-width: 1405px){
+	.redux-container .redux_field_th{
+		padding: 20px 10px 20px 0 !important;
+	}
+	.redux-container .redux-main .redux-field-container{
+		padding: 20px 0 !important;
+	}
+}
+
+/***************** 10. WooCommerce Customize  *****************/
+#customize-control-woocommerce_catalog_columns{
+	display: none !important;
+}
+
+/***************** 11. Menu Color Picker *****************/
+.wp-picker-container .wp-picker-holder{
+	position: absolute;
+}
+.wp-picker-container.wp-picker-active .wp-picker-holder{
+	z-index: 99;
+}

@@ -1,0 +1,29 @@
+v1.0.4 - 2024-10-01
+-----------------------------
+* Woocommerce 9.4.x compatibility added
+* Elementor 3.25.x compatibility added
+* Yith Wishlist 4.x compatibility added
+* Updated Revolution Slider 6.7.23
+* Updated PlaT 1.0.4
+
+v1.0.3 - 2024-10-01
+-----------------------------
+* Minor bug fix
+* Updated PlaT 1.0.3
+
+v1.0.2 - 2024-09-14
+-----------------------------
+* Minor bug fix
+* Woocommerce 9.3.x compatibility added
+* Elementor 3.24.x compatibility added
+* Updated PlaT 1.0.2
+
+v1.0.1 - 2024-09-08
+-----------------------------
+* Minor bug fix on child themes
+* Updated PlaT 1.0.1
+* Importer updated
+
+v1.0.0 - 2024-08-28
+-----------------------------
+* Initial Release
