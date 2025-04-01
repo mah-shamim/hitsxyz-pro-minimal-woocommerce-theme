@@ -1,1 +1,1 @@
-# platrxyz-pro-minimal-woocommerce-theme
+# hitsxyz-pro-minimal-woocommerce-theme
